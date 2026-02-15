@@ -1,0 +1,38 @@
+body {
+    background-color: #f8f9fb;
+}
+
+#FreshMartNavbar {
+    background-color: #148023;
+}
+
+.logo {
+    width: auto;
+    height: 40px;
+}
+
+.contact-card {
+    max-width: 500px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.contact-card input,
+.contact-card textarea {
+    border-radius: 8px;
+}
+
+.contact-btn {
+    background-color: #28a745;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.contact-btn:hover {
+    background-color: #218838;
+}

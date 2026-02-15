@@ -1,0 +1,14 @@
+body{
+    background-color: #f8f9fb;
+}
+#FreshMartNavbar {
+    background-color: #148023;
+}
+.logo{
+    width: auto;
+    height: 40px;
+}
+.bg-image{
+    height: 70vh;
+    background-image: url("images/uk-grocery-2025-banner.jpg");
+}

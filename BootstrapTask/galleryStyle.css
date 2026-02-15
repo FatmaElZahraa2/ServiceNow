@@ -1,0 +1,23 @@
+body {
+    background-color: #f8f9fb;
+}
+
+#FreshMartNavbar {
+    background-color: #148023;
+}
+
+.logo {
+    width: auto;
+    height: 40px;
+}
+
+.gallery-img {
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.gallery-img:hover {
+    transform: scale(1.03);
+}
