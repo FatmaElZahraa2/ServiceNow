@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fb;
+}
+
+
+#FreshMartNavbar {
+    background-color: #148023;
+    padding: 10px 0;
+}
+
+#FreshMartNavbar .container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#FreshMartNavbar .logo {
+    height: 40px;
+}
+
+#FreshMartNavbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+#FreshMartNavbar .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.darkMask {
+    height: 70vh;
+    background-image: url("images/uk-grocery-2025-banner.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.darkMask .darkMaskContent {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.darkMask button {
+    background-color: #ffc107;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.categories {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.categories h1 {
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.card p {
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.card a {
+    text-decoration: none;
+    color: #148023;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 50px;
+}

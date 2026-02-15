@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+}
+
+.header {
+    background-color: #1e8c2f;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #b6ff5c;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.nav a.active {
+    font-weight: bold;
+}
+
+
+.title-section {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.title-section h1 {
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+
+.title-section p {
+    color: gray;
+}
+
+
+.offers {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+
+.card {
+    display: flex;
+    border: 2px dashed #ccc;
+    border-radius: 15px;
+    background-color: white;
+    overflow: hidden;
+}
+
+
+.left {
+    width: 120px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.left h2 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.left p {
+    margin: 5px 0 0;
+    font-weight: bold;
+}
+
+.big {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+
+.green {
+    background-color: #2fa64a;
+}
+
+.orange {
+    background-color: #ff7f00;
+}
+
+.blue {
+    background-color: #1e66d0;
+}
+.red{
+    background-color:rgb(227, 69, 69); ;
+}
+
+.right {
+    padding: 20px;
+    flex: 1;
+}
+
+.right h3 {
+    margin-top: 0;
+}
+
+.right p {
+    color: gray;
+}
+
+.coupon {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 6px 15px;
+    font-weight: bold;
+}
+
+.green-border {
+    border: 2px dashed #2fa64a;
+    color: #2fa64a;
+}
+
+.orange-border {
+    border: 2px dashed #ff7f00;
+    color: #ff7f00;
+}
+
+.blue-border {
+    border: 2px dashed #1e66d0;
+    color: #1e66d0;
+}
+.red-border{
+    border: 2px dashed rgb(227, 69, 69);;
+    color: rgb(227, 69, 69);
+}
+.footer {
+    margin-top: 60px;
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}

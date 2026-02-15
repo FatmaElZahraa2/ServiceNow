@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fb;
+}
+
+.navbar {
+    background-color: #148023;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar ul li a.active {
+    text-decoration: underline;
+}
+
+.breadcrumb {
+    margin: 20px 40px;
+    color: gray;
+}
+
+.green {
+    color: #148023;
+}
+
+.page-title {
+    text-align: center;
+    margin: 20px 0 40px;
+}
+
+
+.products {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 157px;
+}
+
+.card {
+    background-color: white;
+    width: 220px;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.1);
+    position: relative;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.badge {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 5px 10px;
+    font-size: 12px;
+    color: white;
+    border-radius: 6px;
+}
+
+.blue { background-color: #0d6efd; }
+.red { background-color: #dc3545; }
+.hidden { visibility: hidden; }
+
+
+.emoji {
+    font-size: 60px;
+    margin: 40px 0 15px;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.old {
+    text-decoration: line-through;
+    color: gray;
+    font-size: 14px;
+}
+
+.new {
+    font-weight: bold;
+}
+
+button {
+    background-color: #148023;
+    color: white;
+    border: none;
+    padding: 8px;
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+button:hover {
+    background-color: #0f661b;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}

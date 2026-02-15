@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fb;
+}
+
+#FreshMartNavbar {
+    background-color: #148023;
+    padding: 10px 0;
+}
+
+#FreshMartNavbar .container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#FreshMartNavbar .logo {
+    height: 40px;
+}
+
+#FreshMartNavbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+#FreshMartNavbar .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#FreshMartNavbar .nav-links li a.active {
+    text-decoration: underline;
+}
+.gallery-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.gallery-section h1 {
+    margin-bottom: 10px;
+}
+
+.gallery-section p {
+    color: gray;
+    margin-bottom: 30px;
+}
+
+.gallery-roww {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.gallery-roww img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.gallery-row img:hover {
+    transform: scale(1.03);
+}
+
+footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 50px;
+}
